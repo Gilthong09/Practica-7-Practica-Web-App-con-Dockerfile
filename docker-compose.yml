@@ -1,0 +1,6 @@
+services:
+  web:
+    build:
+      context: "C:/Visual Code/Tareas Electiva 2/Practica 7 Practica Web App con Dockerfile y Docker Compose/app"
+    ports:
+      - "5000:5000"
